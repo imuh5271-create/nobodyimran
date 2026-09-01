@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anak Magang Desnet Bravoga</title>
+
+    <!-- Pustaka Eksternal -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body class="antialiased flex flex-col min-h-screen">
+    
+  <!-- Navigasi Utama -->
+    <nav class="sticky top-0 w-full z-50 bg-gray-50 shadow-lg border-b-2 border-gray-200 py-4 px-6 md:px-12 transition-all duration-300">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            
+            <!-- LOGO KIRI -->
+            <a href="#home" class="flex items-center z-20">
+                <img src="images/Gemini_Generated_Image_dv05gydv05gydv05.jpg" alt="Logo Desnet" class="h-10 md:h-16 object-contain">
+            </a>
+
+            <!-- Menu Desktop -->
+            <div class="hidden md:flex gap-6 lg:gap-8 items-center mt-2">
+                <a href="#home" class="nav-link text-sm font-semibold uppercase tracking-wide">Beranda</a>
+                <a href="#about" class="nav-link text-sm font-semibold uppercase tracking-wide">Perusahaan</a>
+                <a href="#interns" class="nav-link text-sm font-semibold uppercase tracking-wide">Tim Magang</a>
+                <a href="#gallery" class="nav-link text-sm font-semibold uppercase tracking-wide">Dokumentasi</a>
+            </div>
+
+            <!-- Tombol Menu Mobile -->
+            <button id="mobile-btn" class="md:hidden text-[#0b3d70] focus:outline-none z-20">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Menu Mobile (Yang sebelumnya hilang) -->
+    <div id="mobile-menu" class="fixed inset-0 bg-white z-[100] transform translate-x-full transition-transform duration-300 ease-in-out flex flex-col md:hidden">
+        <div class="flex justify-between items-center p-6 border-b border-gray-100 shadow-sm">
+            <img src="images/logo-desnet-human-Outline.png" alt="Logo Desnet" class="h-10 object-contain" >
+            <button id="close-menu-btn" class="text-gray-500 hover:text-[#0b3d70] focus:outline-none">
+                <i class="fas fa-times text-3xl"></i>
+            </button>
+        </div>
+        <div class="flex flex-col px-8 mt-4 gap-2">
+            <a href="#home" class="mobile-link py-4 border-b border-gray-100 text-lg font-semibold text-gray-700 hover:text-[#0072bc]">Beranda</a>
+            <a href="#about" class="mobile-link py-4 border-b border-gray-100 text-lg font-semibold text-gray-700 hover:text-[#0072bc]">Perusahaan</a>
+            <a href="#interns" class="mobile-link py-4 border-b border-gray-100 text-lg font-semibold text-gray-700 hover:text-[#0072bc]">Tim Magang</a>
+            <a href="#gallery" class="mobile-link py-4 border-b border-gray-100 text-lg font-semibold text-gray-700 hover:text-[#0072bc]">Dokumentasi</a>
+        </div>
+    </div>
+
+    <!-- Section Beranda (Hero Banner Responsif) -->
+    <section id="home" class="relative w-full h-screen md:h-[85vh] min-h-[500px] md:min-h-[600px] flex flex-col items-center justify-center hero-bg">
+        <!-- Overlay Biru Gelap khas Desnet -->
+        <div class="absolute inset-0 bg-[#0b3d70]/70 mix-blend-multiply z-0"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-[#0b3d70]/90 to-transparent z-0"></div>
+
+        <!-- Tag Div pembungkus teks yang sebelumnya hilang kini sudah dikembalikan -->
+        <div class="relative z-10 text-center max-w-5xl mx-auto px-6 flex flex-col items-center justify-center mt-10 md:mt-0">
+            
+
+            <h1 class="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black text-white mb-4 tracking-tight drop-shadow-lg leading-tight">
+                Bravoga Squad
+            </h1>
+            <p class="text-lg sm:text-xl md:text-3xl text-gray-200 mb-10 font-light max-w-3xl mx-auto drop-shadow-md">
+                Tim Inovator dan Pengembang di <br class="hidden md:block" />
+                <strong class="font-bold text-white">PT DES Teknologi Informasi</strong> Makassar
+            </p>
+
+            <div class="flex justify-center">
+                <a href="#interns" class="group flex items-center gap-3 px-6 md:px-8 py-3 bg-transparent border-2 border-white text-white hover:bg-white hover:text-[#0b3d70] text-sm md:text-base font-semibold uppercase tracking-widest transition-all duration-300">
+                    Kenali Tim Kami
+                    <i class="fas fa-arrow-right transform group-hover:translate-x-2 transition-transform"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Tentang Perusahaan -->
+    <section id="about" class="py-20 px-6 md:px-12 bg-white relative z-10">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col items-center text-center mb-16">
+                <h5 class="text-[#f29a2e] font-bold tracking-widest uppercase text-sm mb-2">Profil</h5>
+                <h2 class="text-3xl md:text-4xl font-bold text-[#0b3d70] mb-4">Tentang Perusahaan</h2>
+                <div class="w-16 h-1 bg-[#0072bc]"></div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+                <div class="text-gray-600 text-lg leading-relaxed space-y-6">
+                    <p>
+                        <strong class="text-[#0b3d70]">DESNET</strong> adalah perusahaan teknologi informasi yang fokus menjadi mitra utama untuk transformasi digital, khususnya di wilayah Sulawesi Selatan.
+                    </p>
+                    <div class="bg-gray-50 border-l-4 border-[#0072bc] p-6 rounded-r-lg shadow-sm">
+                        <h4 class="font-bold text-[#0b3d70] mb-2 flex items-center gap-2">
+                            <i class="fas fa-wifi text-[#f29a2e]"></i> Internet Service Provider (ISP)
+                        </h4>
+                        <p class="text-sm">Penyedia jasa layanan konektivitas dan internet terdedikasi yang andal dan cepat untuk kebutuhan korporasi maupun instansi.</p>
+                    </div>
+                    <div class="bg-gray-50 border-l-4 border-[#0072bc] p-6 rounded-r-lg shadow-sm">
+                        <h4 class="font-bold text-[#0b3d70] mb-2 flex items-center gap-2">
+                            <i class="fas fa-server text-[#f29a2e]"></i> Infrastruktur Jaringan & Data
+                        </h4>
+                        <p class="text-sm">Pengembangan infrastruktur jaringan, layanan berbasis data, serta operasional server yang mumpuni.</p>
+                    </div>
+                    <div class="pt-4 border-t border-gray-200 flex items-start gap-3">
+                        <i class="fas fa-map-marker-alt text-[#0072bc] text-xl mt-1"></i>
+                        <div>
+                            <strong class="block text-gray-800">Branch Office Makassar</strong>
+                            <span class="text-base">Komp. Dahlia Blok H No. 8, Masale, Kec. Panakkukang, Kota Makassar, Sulawesi Selatan 90231</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full h-[450px] rounded-lg overflow-hidden shadow-lg border border-gray-100">
+                    <iframe src="https://maps.google.com/maps?q=PT%20DES%20Teknologi%20Informasi%20Branch%20Makassar,%20Panakkukang&t=&z=16&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Tim Magang -->
+    <section id="interns" class="py-20 px-6 md:px-12 bg-slate-50 relative z-10 border-y border-gray-200">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col items-center text-center mb-16">
+                <h5 class="text-[#f29a2e] font-bold tracking-widest uppercase text-sm mb-2">SDM</h5>
+                <h2 class="text-3xl md:text-4xl font-bold text-[#0b3d70] mb-4">Tim Magang Bravoga</h2>
+                <p class="text-gray-500 max-w-2xl mx-auto">Berikut adalah info tentang kami</p>
+                <div class="w-16 h-1 bg-[#0072bc] mt-6"></div>
+            </div>
+            
+            <div id="intern-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Data digenerate via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Galeri -->
+    <section id="gallery" class="py-20 px-6 md:px-12 bg-white relative z-10">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col items-center text-center mb-16">
+                <h5 class="text-[#f29a2e] font-bold tracking-widest uppercase text-sm mb-2">Logbook</h5>
+                <h2 class="text-3xl md:text-4xl font-bold text-[#0b3d70] mb-4">Dokumentasi Kegiatan</h2>
+                <div class="w-16 h-1 bg-[#0072bc] mt-4"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6" id="gallery-grid">
+                <!-- Gambar galeri akan diisi oleh JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#0b3d70] text-gray-300 py-12 border-t-4 border-[#f29a2e]">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mb-8">
+                <div>
+                    <div class="bg-white inline-block py-2 px-4 rounded mb-4">
+                        <img src="images/logo-desnet-human-Outline.png" alt="Logo Footer" class="h-8 object-contain" onerror="this.src='https://placehold.co/100x30?text=Logo'">
+                    </div>
+                    <p class="text-sm leading-relaxed mb-4 text-gray-400">
+                        Mitra transformasi digital terpercaya di Sulawesi Selatan. Menyediakan layanan ISP, infrastruktur jaringan, dan solusi IT.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-4 border-b border-white/20 pb-2">Navigasi</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#home" class="hover:text-white transition-colors flex items-center gap-2"><i class="fas fa-angle-right text-[#f29a2e]"></i> Beranda</a></li>
+                        <li><a href="#about" class="hover:text-white transition-colors flex items-center gap-2"><i class="fas fa-angle-right text-[#f29a2e]"></i> Perusahaan</a></li>
+                        <li><a href="#interns" class="hover:text-white transition-colors flex items-center gap-2"><i class="fas fa-angle-right text-[#f29a2e]"></i> Tim Magang</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-4 border-b border-white/20 pb-2">Kontak Kami</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex items-start gap-3"><i class="fas fa-map-marker-alt mt-1 text-[#f29a2e]"></i><span>Komp. Dahlia Blok H No. 8, Makassar</span></li>
+                        <li class="flex items-center gap-3"><i class="fas fa-phone-alt text-[#f29a2e]"></i><span>0411-823740</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-white/10 pt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-xs">
+                <p>&copy; 2026 PT DES Teknologi Informasi & Bravoga Interns. All Rights Reserved.</p>
+                <p>Designed by <span class="text-white font-bold">Muh Imran Syarif</span></p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
