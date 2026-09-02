@@ -9,59 +9,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    
-    <style>
-        :root {
-            --desnet-blue: #0b3d70;
-            --desnet-orange: #f29a2e;
-            --desnet-light-blue: #0072bc;
-        }
-
-        body {
-            font-family: "Inter", sans-serif;
-            color: #334155;
-            background-color: #ffffff;
-            overflow-x: hidden;
-        }
-
-        /* Kustomisasi Scrollbar */
-        ::-webkit-scrollbar { width: 10px; }
-        ::-webkit-scrollbar-track { background: #f1f5f9; }
-        ::-webkit-scrollbar-thumb { background: #cbd5e1; }
-        ::-webkit-scrollbar-thumb:hover { background: var(--desnet-blue); }
-
-        /* Efek Hover Navbar */
-        .nav-link {
-            position: relative;
-            color: #475569;
-            transition: color 0.3s ease;
-        }
-        .nav-link:hover {
-            color: var(--desnet-orange);
-        }
-        .nav-link::after {
-            content: '';
-            position: absolute;
-            width: 0;
-            height: 2px;
-            bottom: -4px;
-            left: 0;
-            background-color: var(--desnet-orange);
-            transition: width 0.3s ease;
-        }
-        .nav-link:hover::after {
-            width: 100%;
-        }
-
-        /* Background Hero - Responsif */
-        .hero-bg {
-            background-image: url('images/topologi networking.jpg');
-            background-size: cover;
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-attachment: scroll;
-        }
-    </style>
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body class="antialiased flex flex-col min-h-screen">
@@ -239,6 +187,6 @@
             </div>
         </div>
     </footer>
-    <script src=""></script>
+    <script src="script.js"></script>
 </body>
 </html>
