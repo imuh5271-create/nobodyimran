@@ -1,4 +1,5 @@
-   :root {
+
+        :root {
             --desnet-blue: #0b3d70;
             --desnet-orange: #f29a2e;
             --desnet-light-blue: #0072bc;
@@ -42,7 +43,7 @@
 
         /* Background Hero - Responsif */
         .hero-bg {
-            background-image: url('images/topologi\ networking.jpg);
+            background-image: url('images/topologi networking.jpg');
             background-size: cover;
             background-position: center center;
             background-repeat: no-repeat;
