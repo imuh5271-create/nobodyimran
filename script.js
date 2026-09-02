@@ -66,7 +66,6 @@
             const closeBtn = document.getElementById("close-menu-btn");
             const mobileLinks = document.querySelectorAll(".mobile-link");
 
-            // Pastikan elemen ada sebelum menambah event listener
             if (mobileBtn && mobileMenu && closeBtn) {
                 mobileBtn.addEventListener("click", () => {
                     mobileMenu.classList.remove("translate-x-full");
