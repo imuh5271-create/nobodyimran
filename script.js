@@ -26,7 +26,6 @@
            { img: "images/dokumentasi11.jpeg", caption: "" },
            { img: "images/dokumentasi12.jpeg", caption: "" },
            { img: "images/dokumentasi13.jpeg", caption: "" },
-           { img: "images/dokumentasi14.jpeg", caption: "" },
            { img: "images/dokumentasi15.jpeg", caption: "" },
           
         ];
