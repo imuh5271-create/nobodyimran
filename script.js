@@ -14,11 +14,21 @@
         // Data Foto Galeri
         const dataGaleri = [
             { img: "images/dokumentasi1.jpeg", caption: "" },
-            { img: "https://placehold.co/600x400/0b3d70/ffffff?text=Dokumentasi+2", caption: "Rapat Koordinasi Tim" },
-            { img: "https://placehold.co/600x400/0b3d70/ffffff?text=Dokumentasi+3", caption: "Instalasi Jaringan Klien" },
-            { img: "https://placehold.co/600x400/0b3d70/ffffff?text=Dokumentasi+4", caption: "Presentasi Proyek" },
-            { img: "https://placehold.co/600x400/0b3d70/ffffff?text=Dokumentasi+5", caption: "Pengecekan Fiber Optic" },
-            { img: "https://placehold.co/600x400/0b3d70/ffffff?text=Dokumentasi+6", caption: "Troubleshooting Hardware" },
+            { img: "images/dokumentasi2.jpeg", caption: "" },
+            { img: "images/dokumentasi3.jpeg", caption: "" },
+            { img: "images/dokumentasi4.jpeg", caption: "" },
+            { img: "images/dokumentasi5.jpeg", caption: "" },
+            { img: "images/dokumentasi6.jpeg", caption: "" },
+           { img: "images/dokumentasi7.jpeg", caption: "" },
+           { img: "images/dokumentasi8.jpeg", caption: "" },
+           { img: "images/dokumentasi9.jpeg", caption: "" },
+           { img: "images/dokumentasi10.jpeg", caption: "" },
+           { img: "images/dokumentasi11.jpeg", caption: "" },
+           { img: "images/dokumentasi12.jpeg", caption: "" },
+           { img: "images/dokumentasi13.jpeg", caption: "" },
+           { img: "images/dokumentasi14.jpeg", caption: "" },
+           { img: "images/dokumentasi15.jpeg", caption: "" },
+          
         ];
 
         function renderUI() {
