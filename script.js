@@ -1,7 +1,7 @@
   // Data Biodata Teman Magang
         const dataMagang = [
             { id: 1, nama: "[Nama Teman 1]", sekolah: "SMKN 1 Contoh", posisi: "Web Developer", bio: "Fokus pada pengembangan frontend dan backend.", ig: "#", tiktok: "#", foto: "https://placehold.co/400x400/e2e8f0/475569?text=FOTO+1" },
-            { id: 2, nama: "[Nama Teman 2]", sekolah: "SMK Telkom Contoh", posisi: "UI/UX Designer", bio: "Merancang antarmuka yang ramah pengguna.", ig: "#", tiktok: "#", foto: "https://placehold.co/400x400/e2e8f0/475569?text=FOTO+2" },
+            { id: 2, nama: "Muh Fadly", sekolah: "SMK 5 GOWA", posisi: "Tech Support", bio: "Mahir Melakukan Fusion Splicing.", ig: "https://www.instagram.com/mfaaadlyv_?igsi=MWJ1bDFlN3o2N200dQ==", tiktok: "#", foto: "https://placehold.co/400x400/e2e8f0/475569?text=FOTO+2" },
             { id: 3, nama: "[Nama Teman 3]", sekolah: "SMK Negeri 2 Contoh", posisi: "Network Engineer", bio: "Ahli dalam konfigurasi jaringan dan server.", ig: "#", tiktok: "#", foto: "https://placehold.co/400x400/e2e8f0/475569?text=FOTO+3" },
             { id: 4, nama: "[Nama Teman 4]", sekolah: "Asal Sekolah 4", posisi: "Posisi Magang", bio: "Tulis biodata singkat di sini.", ig: "#", tiktok: "#", foto: "https://placehold.co/400x400/e2e8f0/475569?text=FOTO+4" },
             { id: 5, nama: "[Nama Teman 5]", sekolah: "Asal Sekolah 5", posisi: "Posisi Magang", bio: "Tulis biodata singkat di sini.", ig: "#", tiktok: "#", foto: "https://placehold.co/400x400/e2e8f0/475569?text=FOTO+5" },
