@@ -52,7 +52,7 @@
                 htmlGallery += `
                     <div class="relative group rounded-lg overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition-shadow bg-gray-100 aspect-video">
                         <img src="${g.img}" alt="${g.caption}" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
-                        <div class="absolute inset-0 bg-[#0b3d70]/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+                        <div class="absolute inset-0 bg-[#0b3d70]/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
                             <h4 class="text-white font-semibold text-center text-sm md:text-base transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">${g.caption}</h4>
                         </div>
                     </div>`;
