@@ -13,7 +13,7 @@
 
         // Data Foto Galeri
         const dataGaleri = [
-            { img: "https://placehold.co/600x400/0b3d70/ffffff?text=Dokumentasi+1", caption: "Konfigurasi Server Utama" },
+            { img: "images/dokumentasi1.jpeg", caption: "" },
             { img: "https://placehold.co/600x400/0b3d70/ffffff?text=Dokumentasi+2", caption: "Rapat Koordinasi Tim" },
             { img: "https://placehold.co/600x400/0b3d70/ffffff?text=Dokumentasi+3", caption: "Instalasi Jaringan Klien" },
             { img: "https://placehold.co/600x400/0b3d70/ffffff?text=Dokumentasi+4", caption: "Presentasi Proyek" },
