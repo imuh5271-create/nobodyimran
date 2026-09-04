@@ -2,12 +2,12 @@
         const dataMagang = [
             { id: 1, nama: "Muh Imran Syarif", sekolah: "SMKN 1 Makassar", posisi: "Tech support", bio: "Fokus pada pengembangan kerangka website seperti HTML", ig: "#", tiktok: "#", foto: "fotoanakmagang/imran.jpeg" },
             { id: 2, nama: "M Fadly", sekolah: "SMK 5 Gowa", posisi: "Tech Support", bio: "Mahir Melakukan Fusion Splicing.", ig: "https://www.instagram.com/mfaaadlyv_?igsi=MWJ1bDFlN3o2N200dQ==", tiktok: "#", foto: "fotoanakmagang/fadly.jpeg" },
-             { id: 3, nama: "Nursyila Putri", sekolah: "SMKN 3 Bone", posisi: "NOC (Network Operation Center)", bio: "Memiliki kemampuan dalam fotografi, pengambilan gambar, pengaturan komposisi dan pencahayaan, serta editing foto dasar.", ig: " https://www.instagram.com/0lippp.__?igsi=dGptdXB6NmNvM2xi&utm_source=qr", tiktok: "https://www.tiktok.com/@nrsylaaa.__", foto: "fotoanakmagang/olip.jpeg" },
+            { id: 3, nama: "Nursyila Putri", sekolah: "SMKN 3 Bone", posisi: "NOC (Network Operation Center)", bio: "Memiliki kemampuan dalam fotografi, pengambilan gambar, pengaturan komposisi dan pencahayaan, serta editing foto dasar.", ig: " https://www.instagram.com/0lippp.__?igsi=dGptdXB6NmNvM2xi&utm_source=qr", tiktok: "https://www.tiktok.com/@nrsylaaa.__", foto: "fotoanakmagang/olip.jpeg" },
             { id: 4, nama: "IZATULLAH SEFIRA", sekolah: "SMKN 3 Bone", posisi: "NOC (Network Operation Center)", bio: "Ahli dalam instalasi, krimping, dan pengujian kabel UTP (cat 5) (Straight & Crossover).", ig: "https://www.instagram.com/izatul_17?igsi=c3R3MGs5dDQ4eWV2", tiktok: "https://www.tiktok.com/@fiksizasi?_r=1&_t=ZS-99RIK3KMREI", foto: "fotoanakmagang/iza.jpeg" },
             { id: 6, nama: "[Nama Teman 7]", sekolah: "Asal Sekolah 7", posisi: "Posisi Magang", bio: "Tulis biodata singkat di sini.", ig: "#", tiktok: "#", foto: "https://placehold.co/400x400/e2e8f0/475569?text=FOTO+7" },
-            { id: 7, nama: "[Nama Teman 7]", sekolah: "Asal Sekolah 7", posisi: "Posisi Magang", bio: "Tulis biodata singkat di sini.", ig: "#", tiktok: "#", foto: "https://placehold.co/400x400/e2e8f0/475569?text=FOTO+7" },
-            { id: 8, nama: "[Nama Teman 8]", sekolah: "Asal Sekolah 8", posisi: "Posisi Magang", bio: "Tulis biodata singkat di sini.", ig: "#", tiktok: "#", foto: "https://placehold.co/400x400/e2e8f0/475569?text=FOTO+8" },
-            { id: 9, nama: "[Nama Teman 9]", sekolah: "Asal Sekolah 9", posisi: "Posisi Magang", bio: "Tulis biodata singkat di sini.", ig: "#", tiktok: "#", foto: "https://placehold.co/400x400/e2e8f0/475569?text=FOTO+9" },
+            { id: 7, nama: "[Nama Teman 8]", sekolah: "Asal Sekolah 7", posisi: "Posisi Magang", bio: "Tulis biodata singkat di sini.", ig: "#", tiktok: "#", foto: "https://placehold.co/400x400/e2e8f0/475569?text=FOTO+7" },
+            { id: 8, nama: "[Nama Teman 9]", sekolah: "Asal Sekolah 8", posisi: "Posisi Magang", bio: "Tulis biodata singkat di sini.", ig: "#", tiktok: "#", foto: "https://placehold.co/400x400/e2e8f0/475569?text=FOTO+8" },
+            { id: 9, nama: "[Nama Teman 10]", sekolah: "Asal Sekolah 9", posisi: "Posisi Magang", bio: "Tulis biodata singkat di sini.", ig: "#", tiktok: "#", foto: "https://placehold.co/400x400/e2e8f0/475569?text=FOTO+9" },
         ];
 
         // Data Foto Galeri
